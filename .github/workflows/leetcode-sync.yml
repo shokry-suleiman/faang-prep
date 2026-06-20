@@ -3,7 +3,7 @@ name: Sync LeetCode Solutions
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 */8 * * *'  # every 8 hours (00:00, 08:00, 16:00 UTC)
 
 permissions:
   contents: write
@@ -37,22 +37,36 @@ jobs:
             --only-last-submission \
             --language javascript,typescript \
             --verbose
-      
+
+      - name: Check for changes
+        run: |
+          echo "=== Git status ==="
+          git status --porcelain
+          echo "=== Repo root listing ==="
+          ls -la
+          echo "=== solutions folder listing (recursive) ==="
+          ls -laR solutions/ 2>/dev/null || echo "No solutions folder or empty"
+
+      - name: Show git diff if any
+        if: always()
+        run: |
+          echo "=== git diff (if any) ==="
+          git --no-pager diff --staged || echo "No staged diff"
+
       - name: Commit and push changes
         env:
           COMMIT_NAME: ${{ secrets.COMMIT_NAME }}
           COMMIT_EMAIL: ${{ secrets.COMMIT_EMAIL }}
         run: |
-          # Use provided commit name/email if available, otherwise fall back to a safe no-reply
           if [ -n "$COMMIT_NAME" ] && [ -n "$COMMIT_EMAIL" ]; then
             git config user.name "$COMMIT_NAME"
             git config user.email "$COMMIT_EMAIL"
           else
-            echo "Warning: COMMIT_NAME / COMMIT_EMAIL not set. Using fallback actor no-reply email."
             git config user.name "$GITHUB_ACTOR"
             git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           fi
 
-          git add solutions
+          echo "=== Attempting commit ==="
+          git add solutions || true
           git commit -m "Sync LeetCode solutions" || echo "No changes to commit"
-          git push
+          git push || echo "Push failed"
