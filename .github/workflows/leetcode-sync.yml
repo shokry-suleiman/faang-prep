@@ -39,9 +39,20 @@ jobs:
             --verbose
       
       - name: Commit and push changes
+        env:
+          COMMIT_NAME: ${{ secrets.COMMIT_NAME }}
+          COMMIT_EMAIL: ${{ secrets.COMMIT_EMAIL }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Use provided commit name/email if available, otherwise fall back to a safe no-reply
+          if [ -n "$COMMIT_NAME" ] && [ -n "$COMMIT_EMAIL" ]; then
+            git config user.name "$COMMIT_NAME"
+            git config user.email "$COMMIT_EMAIL"
+          else
+            echo "Warning: COMMIT_NAME / COMMIT_EMAIL not set. Using fallback actor no-reply email."
+            git config user.name "$GITHUB_ACTOR"
+            git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          fi
+
           git add solutions
           git commit -m "Sync LeetCode solutions" || echo "No changes to commit"
           git push
