@@ -2,7 +2,41 @@
 
 **Course:** Master the Coding Interview: Big Tech (FAANG) Interviews — Andrei Neagoie & Yihua Zhang
 **Language:** Solve ALL problems in **Python**
-**Total:** ~120 problems across 14 modules
+**Total:** ~126 problems across 14 modules
+
+---
+
+## 📊 Overall Progress
+
+**Problems Solved: 67 / 126 — 53.2%**
+
+```
+[██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░] 53.2%
+```
+
+> Every time you solve a new problem, add ✅ next to it and update the count above.
+> Formula: solved ÷ 126 × 100 = %. Each █ block = 2%.
+
+### Progress by Module
+
+| Module | Solved | Total | Progress |
+|--------|--------|-------|----------|
+| 1 — Arrays | 7 | 9 | 78% ████████░░ |
+| 2 — Strings | 6 | 8 | 75% ███████░░░ |
+| 3 — Linked Lists | 5 | 11 | 45% ████░░░░░░ |
+| 4 — Stacks & Queues | 7 | 10 | 70% ███████░░░ |
+| 5 — Binary Trees & BST | 12 | 18 | 67% ██████░░░░ |
+| 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
+| 7 — Graphs | 11 | 16 | 69% ██████░░░░ |
+| 8 — Backtracking | 1 | 11 | 9% █░░░░░░░░░ |
+| 9 — Dynamic Programming | 7 | 19 | 37% ████░░░░░░ |
+| 10 — Tries | 0 | 3 | 0% ░░░░░░░░░░ |
+| 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
+| 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
+| 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
+| 14 — Interface Design | 0 | 4 | 0% ░░░░░░░░░░ |
+
+---
 
 ---
 
@@ -212,6 +246,7 @@ You're ready to move to Module 1 when:
 | --- | ------------------------------ | ---------- | ---------------- | ------------------------------- |
 | 242 | Valid Anagram ✅                | Easy       | HashMap          | `Counter` comparison            |
 | 5   | Longest Palindromic Substring ✅| Medium     | Two Pointers     | Expand from center              |
+| 647 | Palindromic Substrings ✅       | Medium     | Two Pointers     | Count palindromes (expand)      |
 | 20  | Valid Parentheses ✅            | Easy       | Stack            | Stack intro (upcoming module)   |
 | 438 | Find All Anagrams in a String  | Medium     | Sliding Window   | Fixed window + hashmap          |
 | 76  | Minimum Window Substring       | Hard       | Sliding Window   | Sliding window master problem   |
@@ -255,6 +290,7 @@ You're ready to move to Module 1 when:
 | 853  | Car Fleet                                  | Medium     | Stack            | Stack + sorting                 |
 | 232  | Implement Queue using Stacks ✅             | Easy       | Stack            | Redo in Python                  |
 | 1249 | Minimum Remove to Make Valid Parentheses ✅ | Medium     | Stack            | Redo in Python                  |
+| 496  | Next Greater Element I ✅                  | Easy       | Monotonic Stack  | Monotonic stack warm-up         |
 | 84   | Largest Rectangle in Histogram             | Hard       | Monotonic Stack  | Monotonic stack — important     |
 
 ---
@@ -281,6 +317,11 @@ You're ready to move to Module 1 when:
 | 105 | Construct BT from Preorder and Inorder  | Medium     | DFS              | Tree construction               |
 | 236 | Lowest Common Ancestor of BT            | Medium     | DFS              | Classic recursion               |
 | 235 | LCA of a BST                            | Medium     | DFS              | BST shortcut                    |
+| 110  | Balanced Binary Tree ✅                 | Easy       | DFS              | Height-based balance check      |
+| 100  | Same Tree ✅                            | Easy       | DFS              | Structural equality recursion   |
+| 1791 | Find Center of Star Graph ✅            | Easy       | Graph            | Degree check — simple           |
+| 509  | Fibonacci Number ✅                     | Easy       | DP               | DP warm-up                      |
+| 557  | Reverse Words in a String III ✅        | Easy       | String           | String manipulation             |
 | 124 | Binary Tree Maximum Path Sum            | Hard       | DFS              | Hard tree problem — stretch     |
 | 297 | Serialize and Deserialize Binary Tree   | Hard       | BFS/DFS          | Design + tree — stretch         |
 
@@ -338,6 +379,7 @@ You're ready to move to Module 1 when:
 | 17  | Letter Combinations of a Phone Number  | Medium     | Backtracking     | Classic                         |
 | 22  | Generate Parentheses                   | Medium     | Backtracking     | Constrained backtracking        |
 | 79  | Word Search                            | Medium     | Backtracking     | Grid backtracking (if not done) |
+| 37  | Sudoku Solver ✅                        | Hard       | Backtracking     | Constraint backtracking         |
 | 51  | N-Queens                               | Hard       | Backtracking     | Stretch goal                    |
 
 ---
@@ -375,10 +417,11 @@ You're ready to move to Module 1 when:
 | 688  | Knight Probability in Chessboard ✅ | Medium  | DP               | 3D DP — spread probability      |
 | 62   | Unique Paths                     | Medium     | DP               | Grid DP intro                   |
 | 64   | Minimum Path Sum                 | Medium     | DP               | Grid DP                         |
-| 1143 | Longest Common Subsequence       | Medium     | DP               | Classic 2D                      |
+| 1143 | Longest Common Subsequence ✅    | Medium     | DP               | Classic 2D                      |
 | 72   | Edit Distance                    | Medium     | DP               | **Critical for NLP/ML**         |
 | 518  | Coin Change II                   | Medium     | DP               | 2D knapsack                     |
 | 97   | Interleaving String              | Medium     | DP               | Two-string DP                   |
+| 516  | Longest Palindromic Subsequence ✅ | Medium   | DP               | 2D DP — palindrome variant      |
 | 312  | Burst Balloons                   | Hard       | DP               | Interval DP — stretch           |
 
 ---
