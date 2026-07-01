@@ -8,14 +8,14 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 67 / 126 — 53.2%**
+**Problems Solved: 70 / 131 — 53.4%**
 
 ```
-[██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░] 53.2%
+[██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░] 53.4%
 ```
 
 > Every time you solve a new problem, add ✅ next to it and update the count above.
-> Formula: solved ÷ 126 × 100 = %. Each █ block = 2%.
+> Formula: solved ÷ 131 × 100 = %. Each █ block = 2%.
 
 ### Progress by Module
 
@@ -25,11 +25,11 @@
 | 2 — Strings | 6 | 8 | 75% ███████░░░ |
 | 3 — Linked Lists | 5 | 11 | 45% ████░░░░░░ |
 | 4 — Stacks & Queues | 7 | 10 | 70% ███████░░░ |
-| 5 — Binary Trees & BST | 12 | 18 | 67% ██████░░░░ |
+| 5 — Binary Trees & BST | 13 | 19 | 68% ██████░░░░ |
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
-| 7 — Graphs | 11 | 16 | 69% ██████░░░░ |
+| 7 — Graphs | 12 | 18 | 67% ██████░░░░ |
 | 8 — Backtracking | 1 | 11 | 9% █░░░░░░░░░ |
-| 9 — Dynamic Programming | 7 | 19 | 37% ████░░░░░░ |
+| 9 — Dynamic Programming | 10 | 23 | 43% ████░░░░░░ |
 | 10 — Tries | 0 | 3 | 0% ░░░░░░░░░░ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -322,6 +322,7 @@ You're ready to move to Module 1 when:
 | 1791 | Find Center of Star Graph ✅            | Easy       | Graph            | Degree check — simple           |
 | 509  | Fibonacci Number ✅                     | Easy       | DP               | DP warm-up                      |
 | 557  | Reverse Words in a String III ✅        | Easy       | String           | String manipulation             |
+| 114 | Flatten Binary Tree to Linked List ✅   | Medium     | DFS              | Pre-order + pointer rewire      |
 | 124 | Binary Tree Maximum Path Sum            | Hard       | DFS              | Hard tree problem — stretch     |
 | 297 | Serialize and Deserialize Binary Tree   | Hard       | BFS/DFS          | Design + tree — stretch         |
 
@@ -359,6 +360,7 @@ You're ready to move to Module 1 when:
 | 797 | All Paths From Source to Target      | Medium     | DFS              | DFS + path tracking             |
 | 1376| Time Needed to Inform All Employees ✅| Medium     | DFS              | DFS + adjacency list            |
 | 323 | Number of Connected Components       | Medium     | Union-Find       | Union-Find                      |
+| 947 | Most Stones Removed with Same Row or Column ✅ | Medium | Union-Find | Union-Find on coordinates |
 | 684 | Redundant Connection                 | Medium     | Union-Find       | Union-Find                      |
 | 743 | Network Delay Time ✅                | Medium     | Dijkstra         | Dijkstra's (in course)          |
 | 787 | Cheapest Flights Within K Stops ✅   | Medium     | Bellman-Ford     | Bellman-Ford (in course)        |
@@ -403,9 +405,9 @@ You're ready to move to Module 1 when:
 | 746 | Min Cost Climbing Stairs ✅     | Easy       | DP               | Memoization + correct entry point |
 | 198 | House Robber ✅                 | Medium     | DP               | Classic 1D                      |
 | 213 | House Robber II                | Medium     | DP               | Circular variation              |
-| 300 | Longest Increasing Subsequence | Medium     | DP               | Binary search optimization      |
+| 300 | Longest Increasing Subsequence ✅ | Medium     | DP               | Binary search optimization      |
 | 139 | Word Break ✅                   | Medium     | DP               | String DP                       |
-| 322 | Coin Change                    | Medium     | DP               | Unbounded knapsack              |
+| 322 | Coin Change ✅                  | Medium     | DP               | Unbounded knapsack              |
 | 152 | Maximum Product Subarray       | Medium     | DP               | Track min/max                   |
 | 91  | Decode Ways                    | Medium     | DP               | String DP                       |
 | 416 | Partition Equal Subset Sum     | Medium     | DP               | 0/1 knapsack                    |
@@ -422,6 +424,8 @@ You're ready to move to Module 1 when:
 | 518  | Coin Change II                   | Medium     | DP               | 2D knapsack                     |
 | 97   | Interleaving String              | Medium     | DP               | Two-string DP                   |
 | 516  | Longest Palindromic Subsequence ✅ | Medium   | DP               | 2D DP — palindrome variant      |
+| 1092 | Shortest Common Supersequence ✅     | Hard       | DP               | Build on LCS                    |
+| 685  | Minimum Domino Rotations ✅          | Medium     | Greedy           | Count frequencies               |
 | 312  | Burst Balloons                   | Hard       | DP               | Interval DP — stretch           |
 
 ---
