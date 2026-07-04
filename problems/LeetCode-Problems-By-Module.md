@@ -8,14 +8,14 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 70 / 131 — 53.4%**
+**Problems Solved: 72 / 133 — 54.1%**
 
 ```
-[██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░] 53.4%
+[███████████████████████████░░░░░░░░░░░░░░░░░░░░░░] 54.1%
 ```
 
 > Every time you solve a new problem, add ✅ next to it and update the count above.
-> Formula: solved ÷ 131 × 100 = %. Each █ block = 2%.
+> Formula: solved ÷ 133 × 100 = %. Each █ block = 2%.
 
 ### Progress by Module
 
@@ -29,8 +29,8 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 12 | 18 | 67% ██████░░░░ |
 | 8 — Backtracking | 1 | 11 | 9% █░░░░░░░░░ |
-| 9 — Dynamic Programming | 10 | 23 | 43% ████░░░░░░ |
-| 10 — Tries | 0 | 3 | 0% ░░░░░░░░░░ |
+| 9 — Dynamic Programming | 11 | 23 | 48% █████░░░░░ |
+| 10 — Tries | 1 | 3 | 33% ███░░░░░░░ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
 | 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
@@ -418,7 +418,7 @@ You're ready to move to Module 1 when:
 | ---- | -------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 688  | Knight Probability in Chessboard ✅ | Medium  | DP               | 3D DP — spread probability      |
 | 62   | Unique Paths                     | Medium     | DP               | Grid DP intro                   |
-| 64   | Minimum Path Sum                 | Medium     | DP               | Grid DP                         |
+| 64   | Minimum Path Sum ✅               | Medium     | DP               | Grid DP                         |
 | 1143 | Longest Common Subsequence ✅    | Medium     | DP               | Classic 2D                      |
 | 72   | Edit Distance                    | Medium     | DP               | **Critical for NLP/ML**         |
 | 518  | Coin Change II                   | Medium     | DP               | 2D knapsack                     |
@@ -434,7 +434,7 @@ You're ready to move to Module 1 when:
 
 | #   | Problem                              | Difficulty | Pattern          | Key Concept                     |
 | --- | ------------------------------------ | ---------- | ---------------- | ------------------------------- |
-| 208 | Implement Trie                       | Medium     | Trie             | Core implementation             |
+| 208 | Implement Trie ✅                    | Medium     | Trie             | Core implementation             |
 | 211 | Design Add and Search Words          | Medium     | Trie             | Trie + DFS                      |
 | 212 | Word Search II                       | Hard       | Trie             | Trie + backtracking             |
 
