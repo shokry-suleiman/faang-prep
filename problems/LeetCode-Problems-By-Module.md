@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 72 / 133 — 54.1%**
+**Problems Solved: 73 / 133 — 54.9%**
 
 ```
-[███████████████████████████░░░░░░░░░░░░░░░░░░░░░░] 54.1%
+[███████████████████████████░░░░░░░░░░░░░░░░░░░░░░] 54.9%
 ```
 
 > Every time you solve a new problem, add ✅ next to it and update the count above.
@@ -30,7 +30,7 @@
 | 7 — Graphs | 12 | 18 | 67% ██████░░░░ |
 | 8 — Backtracking | 1 | 11 | 9% █░░░░░░░░░ |
 | 9 — Dynamic Programming | 11 | 23 | 48% █████░░░░░ |
-| 10 — Tries | 1 | 3 | 33% ███░░░░░░░ |
+| 10 — Tries | 2 | 3 | 67% ██████░░░░ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
 | 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
@@ -435,7 +435,7 @@ You're ready to move to Module 1 when:
 | #   | Problem                              | Difficulty | Pattern          | Key Concept                     |
 | --- | ------------------------------------ | ---------- | ---------------- | ------------------------------- |
 | 208 | Implement Trie ✅                    | Medium     | Trie             | Core implementation             |
-| 211 | Design Add and Search Words          | Medium     | Trie             | Trie + DFS                      |
+| 211 | Design Add and Search Words ✅        | Medium     | Trie             | Trie + DFS                      |
 | 212 | Word Search II                       | Hard       | Trie             | Trie + backtracking             |
 
 ---
