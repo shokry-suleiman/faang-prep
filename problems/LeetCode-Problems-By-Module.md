@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 73 / 133 — 54.9%**
+**Problems Solved: 74 / 133 — 55.6%**
 
 ```
-[███████████████████████████░░░░░░░░░░░░░░░░░░░░░░] 54.9%
+[████████████████████████████░░░░░░░░░░░░░░░░░░░░] 55.6%
 ```
 
 > Every time you solve a new problem, add ✅ next to it and update the count above.
@@ -28,7 +28,7 @@
 | 5 — Binary Trees & BST | 13 | 19 | 68% ██████░░░░ |
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 12 | 18 | 67% ██████░░░░ |
-| 8 — Backtracking | 1 | 11 | 9% █░░░░░░░░░ |
+| 8 — Backtracking | 2 | 11 | 18% ██░░░░░░░░░ |
 | 9 — Dynamic Programming | 11 | 23 | 48% █████░░░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
@@ -373,7 +373,7 @@ You're ready to move to Module 1 when:
 | #   | Problem                                | Difficulty | Pattern          | Key Concept                     |
 | --- | -------------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 78  | Subsets                                | Medium     | Backtracking     | Core backtracking template      |
-| 46  | Permutations                           | Medium     | Backtracking     | Core template                   |
+| 46  | Permutations ✅                        | Medium     | Backtracking     | Core template                   |
 | 39  | Combination Sum                        | Medium     | Backtracking     | With duplicates allowed         |
 | 40  | Combination Sum II                     | Medium     | Backtracking     | Skip duplicates                 |
 | 77  | Combinations                           | Medium     | Backtracking     | nCr generation                  |
