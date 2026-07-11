@@ -1,21 +1,22 @@
 # LeetCode Problem List — Aligned to ZTM FAANG Course Modules
 
 **Course:** Master the Coding Interview: Big Tech (FAANG) Interviews — Andrei Neagoie & Yihua Zhang
-**Language:** Solve ALL problems in **Python**
-**Total:** ~126 problems across 14 modules
+**Language:** JavaScript
+**Total:** 148 problems across 14 modules
 
 ---
 
 ## 📊 Overall Progress
 
-**Problems Solved: 74 / 133 — 55.6%**
+**Problems Solved: 83 / 148 — 56.1%**
 
 ```
-[████████████████████████████░░░░░░░░░░░░░░░░░░░░] 55.6%
+[████████████████████████████░░░░░░░░░░░░░░░░░░░░░] 56.1%
 ```
 
+> Recounted directly from file content on this update — corrects any drift from manual tracking.
 > Every time you solve a new problem, add ✅ next to it and update the count above.
-> Formula: solved ÷ 133 × 100 = %. Each █ block = 2%.
+> Formula: solved ÷ 148 × 100 = %. Each █ block = 2%.
 
 ### Progress by Module
 
@@ -27,9 +28,9 @@
 | 4 — Stacks & Queues | 7 | 10 | 70% ███████░░░ |
 | 5 — Binary Trees & BST | 13 | 19 | 68% ██████░░░░ |
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
-| 7 — Graphs | 12 | 18 | 67% ██████░░░░ |
-| 8 — Backtracking | 2 | 11 | 18% ██░░░░░░░░░ |
-| 9 — Dynamic Programming | 11 | 23 | 48% █████░░░░░ |
+| 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
+| 8 — Backtracking | 5 | 11 | 45% █████░░░░░ |
+| 9 — Dynamic Programming | 12 | 21 | 57% ██████░░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -210,9 +211,9 @@ You're ready to move to Module 1 when:
 
 ## Module 1 — Arrays (Course Sections 2–4)
 
-### Re-solve in Python (done in JS):
+### Re-solve for speed:
 
-| #   | Problem                        | Difficulty | Pattern          | Python Focus                    |
+| #   | Problem                        | Difficulty | Pattern          | Focus                    |
 | --- | ------------------------------ | ---------- | ---------------- | ------------------------------- |
 | 1   | Two Sum ✅                      | Easy       | HashMap          | `dict`, `enumerate`             |
 | 11  | Container With Most Water ✅    | Medium     | Two Pointers     | `max()`, two pointers           |
@@ -227,15 +228,15 @@ You're ready to move to Module 1 when:
 | 238 | Product of Array Except Self ✅ | Medium     | Prefix/Suffix    | Prefix/suffix pattern           |
 | 347 | Top K Frequent Elements        | Medium     | Heap             | `Counter`, `heapq.nlargest`     |
 | 15  | 3Sum ✅                         | Medium     | Two Pointers     | Sorting + two pointers          |
-| 217 | Contains Duplicate ✅           | Easy       | HashMap          | Warm-up in Python               |
+| 217 | Contains Duplicate ✅           | Easy       | HashMap          | Warm-up — redo for speed               |
 
 ---
 
 ## Module 2 — Strings (Course Sections 5–7)
 
-### Re-solve in Python:
+### Re-solve for speed:
 
-| #   | Problem                                    | Difficulty | Pattern          | Python Focus                  |
+| #   | Problem                                    | Difficulty | Pattern          | Focus                  |
 | --- | ------------------------------------------ | ---------- | ---------------- | ----------------------------- |
 | 3   | Longest Substring Without Repeating ✅      | Medium     | Sliding Window   | `set` + sliding window intro  |
 | 125 | Valid Palindrome ✅                         | Easy       | Two Pointers     | `isalnum()`, slicing `[::-1]` |
@@ -255,11 +256,11 @@ You're ready to move to Module 1 when:
 
 ## Module 3 — Linked Lists (Course Sections 8–12)
 
-### Re-solve in Python:
+### Re-solve for speed:
 
-| #   | Problem                        | Difficulty | Pattern          | Python Focus                    |
+| #   | Problem                        | Difficulty | Pattern          | Focus                    |
 | --- | ------------------------------ | ---------- | ---------------- | ------------------------------- |
-| 206 | Reverse Linked List ✅          | Easy       | Pull-to-front    | Python node manipulation        |
+| 206 | Reverse Linked List ✅          | Easy       | Pull-to-front    | Node manipulation practice        |
 | 141 | Linked List Cycle ✅            | Easy       | Two Pointers     | Floyd's — in course             |
 
 ### Practice alongside:
@@ -288,8 +289,8 @@ You're ready to move to Module 1 when:
 | 739  | Daily Temperatures ✅                      | Medium     | Monotonic Stack  | Monotonic stack                 |
 | 394  | Decode String                              | Medium     | Stack            | Nested stack                    |
 | 853  | Car Fleet                                  | Medium     | Stack            | Stack + sorting                 |
-| 232  | Implement Queue using Stacks ✅             | Easy       | Stack            | Redo in Python                  |
-| 1249 | Minimum Remove to Make Valid Parentheses ✅ | Medium     | Stack            | Redo in Python                  |
+| 232  | Implement Queue using Stacks ✅             | Easy       | Stack            | Redo for speed                  |
+| 1249 | Minimum Remove to Make Valid Parentheses ✅ | Medium     | Stack            | Redo for speed                  |
 | 496  | Next Greater Element I ✅                  | Easy       | Monotonic Stack  | Monotonic stack warm-up         |
 | 84   | Largest Rectangle in Histogram             | Hard       | Monotonic Stack  | Monotonic stack — important     |
 
@@ -297,9 +298,9 @@ You're ready to move to Module 1 when:
 
 ## Module 5 — Binary Trees & BST (Course Sections ~16–21)
 
-### Re-solve in Python:
+### Re-solve for speed:
 
-| #    | Problem                             | Difficulty | Pattern          | Python Focus                    |
+| #    | Problem                             | Difficulty | Pattern          | Focus                    |
 | ---- | ----------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 102  | Binary Tree Level Order Traversal ✅ | Medium     | BFS              | `collections.deque`             |
 | 226  | Invert Binary Tree ✅                | Easy       | DFS              | Clean recursion                 |
@@ -337,7 +338,7 @@ You're ready to move to Module 1 when:
 | 48  | Rotate Image ✅                | Medium     | Matrix           | Matrix rotation                 |
 | 74  | Search a 2D Matrix ✅           | Medium     | Binary Search    | Binary search on matrix         |
 | 36  | Valid Sudoku                   | Medium     | HashMap          | Hashset per row/col/box         |
-| 79  | Word Search                    | Medium     | Backtracking     | Grid DFS + backtracking         |
+| 79  | Word Search ✅                  | Medium     | Backtracking     | Grid DFS + backtracking         |
 | 200 | Number of Islands ✅            | Medium     | BFS/DFS          | Grid BFS/DFS (bridge to graphs) |
 | 41  | First Missing Positive         | Hard       | In-place Marker  | Use array indices as markers    |
 | 442 | Find All Duplicates in Array ✅ | Medium     | In-place Marker  | Negate values as markers        |
@@ -350,7 +351,7 @@ You're ready to move to Module 1 when:
 | --- | ------------------------------------ | ---------- | ---------------- | ------------------------------- |
 | 733 | Flood Fill ✅                         | Easy       | DFS              | DFS warm-up                     |
 | 695 | Max Area of Island ✅                 | Medium     | DFS              | DFS + counting                  |
-| 994 | Rotting Oranges ✅                    | Medium     | BFS              | Multi-source BFS (redo Python)  |
+| 994 | Rotting Oranges ✅                    | Medium     | BFS              | Multi-source BFS — redo for speed  |
 | 542 | 01 Matrix ✅                          | Medium     | BFS              | Multi-source BFS                |
 | 133 | Clone Graph ✅                        | Medium     | BFS/DFS          | BFS/DFS + hashmap               |
 | 207 | Course Schedule ✅                    | Medium     | Topological Sort | Topological sort (in course)    |
@@ -372,15 +373,15 @@ You're ready to move to Module 1 when:
 
 | #   | Problem                                | Difficulty | Pattern          | Key Concept                     |
 | --- | -------------------------------------- | ---------- | ---------------- | ------------------------------- |
-| 78  | Subsets                                | Medium     | Backtracking     | Core backtracking template      |
+| 78  | Subsets ✅                              | Medium     | Backtracking     | Core backtracking template      |
 | 46  | Permutations ✅                        | Medium     | Backtracking     | Core template                   |
-| 39  | Combination Sum                        | Medium     | Backtracking     | With duplicates allowed         |
+| 39  | Combination Sum ✅                     | Medium     | Backtracking     | With duplicates allowed         |
 | 40  | Combination Sum II                     | Medium     | Backtracking     | Skip duplicates                 |
 | 77  | Combinations                           | Medium     | Backtracking     | nCr generation                  |
 | 131 | Palindrome Partitioning                | Medium     | Backtracking     | String backtracking             |
 | 17  | Letter Combinations of a Phone Number  | Medium     | Backtracking     | Classic                         |
 | 22  | Generate Parentheses                   | Medium     | Backtracking     | Constrained backtracking        |
-| 79  | Word Search                            | Medium     | Backtracking     | Grid backtracking (if not done) |
+| 79  | Word Search ✅                          | Medium     | Backtracking     | Grid backtracking (if not done) |
 | 37  | Sudoku Solver ✅                        | Hard       | Backtracking     | Constraint backtracking         |
 | 51  | N-Queens                               | Hard       | Backtracking     | Stretch goal                    |
 
@@ -446,7 +447,7 @@ You're ready to move to Module 1 when:
 | ---- | ---------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 703  | Kth Largest Element in a Stream ✅  | Easy       | Heap             | `heapq` basics                  |
 | 215  | Kth Largest Element in Array ✅     | Medium     | Heap             | Quickselect (in course) — redo  |
-| 1046 | Last Stone Weight ✅               | Easy       | Heap             | Max-heap (negate in Python)     |
+| 1046 | Last Stone Weight ✅               | Easy       | Heap             | Max-heap (negate values trick)     |
 | 973  | K Closest Points to Origin ✅       | Medium     | Heap             | Min-heap                        |
 | 621  | Task Scheduler                     | Medium     | Heap + Greedy    | Max-heap + greedy               |
 | 355  | Design Twitter                     | Medium     | Heap             | Heap + OOP                      |
@@ -480,7 +481,7 @@ You're ready to move to Module 1 when:
 | --- | -------------------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 704 | Binary Search ✅                              | Easy       | Binary Search    | Warm-up                         |
 | 33  | Search in Rotated Sorted Array               | Medium     | Binary Search    | Modified BS                     |
-| 34  | Find First and Last Position ✅               | Medium     | Binary Search    | Redo in Python                  |
+| 34  | Find First and Last Position ✅               | Medium     | Binary Search    | Redo for speed                  |
 | 153 | Find Minimum in Rotated Sorted Array         | Medium     | Binary Search    | Modified BS                     |
 | 875 | Koko Eating Bananas                          | Medium     | Binary Search    | BS on answer                    |
 | 981 | Time Based Key-Value Store                   | Medium     | Binary Search    | BS + design                     |
@@ -491,7 +492,7 @@ You're ready to move to Module 1 when:
 
 | #   | Problem                        | Difficulty | Pattern          | Key Concept                     |
 | --- | ------------------------------ | ---------- | ---------------- | ------------------------------- |
-| 146 | LRU Cache                     | Medium     | HashMap + LL     | `OrderedDict` in Python         |
+| 146 | LRU Cache                     | Medium     | HashMap + LL     | Hashmap + doubly linked list         |
 | 380 | Insert Delete GetRandom O(1)  | Medium     | HashMap          | Hashmap + array                 |
 | 355 | Design Twitter                | Medium     | Heap             | Heap + OOP (if not done)        |
 | 981 | Time Based Key-Value Store    | Medium     | Binary Search    | BS + design (if not done)       |
@@ -500,18 +501,18 @@ You're ready to move to Module 1 when:
 
 ## Progress Checklist
 
-- [ ] Module 1 — Arrays: 9 problems
-- [ ] Module 2 — Strings: 7 problems
-- [ ] Module 3 — Linked Lists: 9 problems
-- [ ] Module 4 — Stacks & Queues: 9 problems
-- [ ] Module 5 — Binary Trees & BST: 13 problems
-- [ ] Module 6 — 2D Arrays / Matrices: 7 problems
-- [ ] Module 7 — Graphs: 15 problems
-- [ ] Module 8 — Recursion & Backtracking: 10 problems
-- [ ] Module 9 — Dynamic Programming: 16 problems
-- [ ] Module 10 — Tries: 3 problems
-- [ ] Module 11 — Heaps & Priority Queues: 10 problems
-- [ ] Module 12 — Sorting, Greedy & Intervals: 10 problems
-- [ ] Module 13 — Binary Search: 6 problems
-- [ ] Module 14 — Interface Design: 4 problems
-- **Total: ~120 problems (solve in module order as you progress through the course)**
+- [ ] Module 1 — Arrays: 7/9 solved
+- [ ] Module 2 — Strings: 6/8 solved
+- [ ] Module 3 — Linked Lists: 5/11 solved
+- [ ] Module 4 — Stacks & Queues: 7/10 solved
+- [ ] Module 5 — Binary Trees & BST: 13/19 solved
+- [ ] Module 6 — 2D Arrays / Matrices: 7/9 solved
+- [ ] Module 7 — Graphs: 11/17 solved
+- [ ] Module 8 — Recursion & Backtracking: 5/11 solved
+- [ ] Module 9 — Dynamic Programming: 12/21 solved
+- [x] Module 10 — Tries: 3/3 solved ✅ COMPLETE
+- [ ] Module 11 — Heaps & Priority Queues: 4/10 solved
+- [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
+- [ ] Module 13 — Binary Search: 2/6 solved
+- [ ] Module 14 — Interface Design: 0/4 solved
+- **Total: 83/148 solved — 56.1%**
