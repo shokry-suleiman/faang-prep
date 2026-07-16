@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 86 / 148 — 58.1%**
+**Problems Solved: 87 / 148 — 58.8%**
 
 ```
-[█████████████████████████████░░░░░░░░░░░░░░░░░░░░] 58.1%
+[██████████████████████████████░░░░░░░░░░░░░░░░░░░] 58.8%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -29,7 +29,7 @@
 | 5 — Binary Trees & BST | 13 | 19 | 68% ██████░░░░ |
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
-| 8 — Backtracking | 8 | 11 | 73% ███████░░░ |
+| 8 — Backtracking | 9 | 11 | 82% ████████░░ |
 | 9 — Dynamic Programming | 12 | 21 | 57% ██████░░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
@@ -377,7 +377,7 @@ You're ready to move to Module 1 when:
 | 46  | Permutations ✅                        | Medium     | Backtracking     | Core template                   |
 | 39  | Combination Sum ✅                     | Medium     | Backtracking     | With duplicates allowed         |
 | 40  | Combination Sum II ✅                   | Medium     | Backtracking     | Skip duplicates                 |
-| 77  | Combinations                           | Medium     | Backtracking     | nCr generation                  |
+| 77  | Combinations ✅                         | Medium     | Backtracking     | nCr generation                  |
 | 131 | Palindrome Partitioning ✅              | Medium     | Backtracking     | String backtracking             |
 | 17  | Letter Combinations of a Phone Number  | Medium     | Backtracking     | Classic                         |
 | 22  | Generate Parentheses                   | Medium     | Backtracking     | Constrained backtracking        |
