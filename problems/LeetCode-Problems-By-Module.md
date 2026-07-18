@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 88 / 148 — 59.5%**
+**Problems Solved: 89 / 148 — 60.1%**
 
 ```
-[██████████████████████████████░░░░░░░░░░░░░░░░░░░] 59.5%
+[██████████████████████████████░░░░░░░░░░░░░░░░░░░] 60.1%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -29,7 +29,7 @@
 | 5 — Binary Trees & BST | 13 | 19 | 68% ██████░░░░ |
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
-| 8 — Backtracking | 10 | 11 | 91% █████████░ |
+| 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
 | 9 — Dynamic Programming | 12 | 21 | 57% ██████░░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
@@ -380,7 +380,7 @@ You're ready to move to Module 1 when:
 | 77  | Combinations ✅                         | Medium     | Backtracking     | nCr generation                  |
 | 131 | Palindrome Partitioning ✅              | Medium     | Backtracking     | String backtracking             |
 | 17  | Letter Combinations of a Phone Number ✅ | Medium     | Backtracking     | Classic                         |
-| 22  | Generate Parentheses                   | Medium     | Backtracking     | Constrained backtracking        |
+| 22  | Generate Parentheses ✅                 | Medium     | Backtracking     | Constrained backtracking        |
 | 79  | Word Search ✅                          | Medium     | Backtracking     | Grid backtracking (if not done) |
 | 37  | Sudoku Solver ✅                        | Hard       | Backtracking     | Constraint backtracking         |
 | 51  | N-Queens ✅                             | Hard       | Backtracking     | Stretch goal                    |
