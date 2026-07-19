@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 89 / 148 — 60.1%**
+**Problems Solved: 90 / 148 — 60.8%**
 
 ```
-[██████████████████████████████░░░░░░░░░░░░░░░░░░░] 60.1%
+[███████████████████████████████░░░░░░░░░░░░░░░░░░] 60.8%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 12 | 21 | 57% ██████░░░░ |
+| 9 — Dynamic Programming | 13 | 21 | 62% ██████░░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -418,7 +418,7 @@ You're ready to move to Module 1 when:
 | #    | Problem                          | Difficulty | Pattern          | Key Concept                     |
 | ---- | -------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 688  | Knight Probability in Chessboard ✅ | Medium  | DP               | 3D DP — spread probability      |
-| 62   | Unique Paths                     | Medium     | DP               | Grid DP intro                   |
+| 62   | Unique Paths ✅                   | Medium     | DP               | Grid DP intro                   |
 | 64   | Minimum Path Sum ✅               | Medium     | DP               | Grid DP                         |
 | 1143 | Longest Common Subsequence ✅    | Medium     | DP               | Classic 2D                      |
 | 72   | Edit Distance                    | Medium     | DP               | **Critical for NLP/ML**         |
