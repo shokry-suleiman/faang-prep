@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 90 / 148 — 60.8%**
+**Problems Solved: 91 / 148 — 61.5%**
 
 ```
-[███████████████████████████████░░░░░░░░░░░░░░░░░░] 60.8%
+[███████████████████████████████░░░░░░░░░░░░░░░░░░] 61.5%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 13 | 21 | 62% ██████░░░░ |
+| 9 — Dynamic Programming | 14 | 21 | 67% ██████░░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -405,7 +405,7 @@ You're ready to move to Module 1 when:
 | 70  | Climbing Stairs ✅              | Easy       | DP               | Intro to DP                     |
 | 746 | Min Cost Climbing Stairs ✅     | Easy       | DP               | Memoization + correct entry point |
 | 198 | House Robber ✅                 | Medium     | DP               | Classic 1D                      |
-| 213 | House Robber II                | Medium     | DP               | Circular variation              |
+| 213 | House Robber II ✅              | Medium     | DP               | Circular variation              |
 | 300 | Longest Increasing Subsequence ✅ | Medium     | DP               | Binary search optimization      |
 | 139 | Word Break ✅                   | Medium     | DP               | String DP                       |
 | 322 | Coin Change ✅                  | Medium     | DP               | Unbounded knapsack              |
