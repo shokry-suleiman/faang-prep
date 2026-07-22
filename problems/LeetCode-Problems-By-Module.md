@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 91 / 148 — 61.5%**
+**Problems Solved: 92 / 148 — 62.2%**
 
 ```
-[███████████████████████████████░░░░░░░░░░░░░░░░░░] 61.5%
+[█████████████████████████████████░░░░░░░░░░░░░░░░] 62.2%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 14 | 21 | 67% ██████░░░░ |
+| 9 — Dynamic Programming | 15 | 21 | 71% ███████░░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -409,7 +409,7 @@ You're ready to move to Module 1 when:
 | 300 | Longest Increasing Subsequence ✅ | Medium     | DP               | Binary search optimization      |
 | 139 | Word Break ✅                   | Medium     | DP               | String DP                       |
 | 322 | Coin Change ✅                  | Medium     | DP               | Unbounded knapsack              |
-| 152 | Maximum Product Subarray       | Medium     | DP               | Track min/max                   |
+| 152 | Maximum Product Subarray ✅    | Medium     | DP               | Track min/max                   |
 | 91  | Decode Ways                    | Medium     | DP               | String DP                       |
 | 416 | Partition Equal Subset Sum     | Medium     | DP               | 0/1 knapsack                    |
 
