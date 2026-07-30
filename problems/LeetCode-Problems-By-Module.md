@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 93 / 148 — 62.8%**
+**Problems Solved: 94 / 148 — 63.5%**
 
 ```
-[█████████████████████████████████░░░░░░░░░░░░░░░░] 62.8%
+[██████████████████████████████████░░░░░░░░░░░░░░░] 63.5%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 16 | 21 | 76% ████████░░ |
+| 9 — Dynamic Programming | 17 | 21 | 81% ████████░░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -421,7 +421,7 @@ You're ready to move to Module 1 when:
 | 62   | Unique Paths ✅                   | Medium     | DP               | Grid DP intro                   |
 | 64   | Minimum Path Sum ✅               | Medium     | DP               | Grid DP                         |
 | 1143 | Longest Common Subsequence ✅    | Medium     | DP               | Classic 2D                      |
-| 72   | Edit Distance                    | Medium     | DP               | **Critical for NLP/ML**         |
+| 72   | Edit Distance ✅                  | Medium     | DP               | **Critical for NLP/ML**         |
 | 518  | Coin Change II                   | Medium     | DP               | 2D knapsack                     |
 | 97   | Interleaving String              | Medium     | DP               | Two-string DP                   |
 | 516  | Longest Palindromic Subsequence ✅ | Medium   | DP               | 2D DP — palindrome variant      |
