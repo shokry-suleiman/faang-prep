@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 94 / 148 — 63.5%**
+**Problems Solved: 95 / 148 — 64.2%**
 
 ```
-[██████████████████████████████████░░░░░░░░░░░░░░░] 63.5%
+[██████████████████████████████████░░░░░░░░░░░░░░░] 64.2%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 17 | 21 | 81% ████████░░ |
+| 9 — Dynamic Programming | 18 | 21 | 86% █████████░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -411,7 +411,7 @@ You're ready to move to Module 1 when:
 | 322 | Coin Change ✅                  | Medium     | DP               | Unbounded knapsack              |
 | 152 | Maximum Product Subarray ✅    | Medium     | DP               | Track min/max                   |
 | 91  | Decode Ways ✅                  | Medium     | DP               | String DP                       |
-| 416 | Partition Equal Subset Sum     | Medium     | DP               | 0/1 knapsack                    |
+| 416 | Partition Equal Subset Sum ✅  | Medium     | DP               | 0/1 knapsack                    |
 
 ### 2D DP (do after):
 
@@ -508,11 +508,11 @@ You're ready to move to Module 1 when:
 - [ ] Module 5 — Binary Trees & BST: 13/19 solved
 - [ ] Module 6 — 2D Arrays / Matrices: 7/9 solved
 - [ ] Module 7 — Graphs: 11/17 solved
-- [ ] Module 8 — Recursion & Backtracking: 5/11 solved
-- [ ] Module 9 — Dynamic Programming: 12/21 solved
+- [x] Module 8 — Recursion & Backtracking: 11/11 solved ✅ COMPLETE
+- [ ] Module 9 — Dynamic Programming: 18/21 solved
 - [x] Module 10 — Tries: 3/3 solved ✅ COMPLETE
 - [ ] Module 11 — Heaps & Priority Queues: 4/10 solved
 - [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
 - [ ] Module 13 — Binary Search: 2/6 solved
 - [ ] Module 14 — Interface Design: 0/4 solved
-- **Total: 83/148 solved — 56.1%**
+- **Total: 95/148 solved — 64.2%**
