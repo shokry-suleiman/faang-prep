@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 96 / 148 — 64.9%**
+**Problems Solved: 97 / 148 — 65.5%**
 
 ```
-[███████████████████████████████████░░░░░░░░░░░░░░] 64.9%
+[███████████████████████████████████░░░░░░░░░░░░░░] 65.5%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 19 | 21 | 90% █████████░ |
+| 9 — Dynamic Programming | 20 | 21 | 95% █████████░ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -423,7 +423,7 @@ You're ready to move to Module 1 when:
 | 1143 | Longest Common Subsequence ✅    | Medium     | DP               | Classic 2D                      |
 | 72   | Edit Distance ✅                  | Medium     | DP               | **Critical for NLP/ML**         |
 | 518  | Coin Change II ✅                 | Medium     | DP               | 2D knapsack                     |
-| 97   | Interleaving String              | Medium     | DP               | Two-string DP                   |
+| 97   | Interleaving String ✅            | Medium     | DP               | Two-string DP                   |
 | 516  | Longest Palindromic Subsequence ✅ | Medium   | DP               | 2D DP — palindrome variant      |
 | 1092 | Shortest Common Supersequence ✅     | Hard       | DP               | Build on LCS                    |
 | 685  | Minimum Domino Rotations ✅          | Medium     | Greedy           | Count frequencies               |
