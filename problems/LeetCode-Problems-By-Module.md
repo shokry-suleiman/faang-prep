@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 97 / 148 — 65.5%**
+**Problems Solved: 98 / 148 — 66.2%**
 
 ```
-[███████████████████████████████████░░░░░░░░░░░░░░] 65.5%
+[█████████████████████████████████░░░░░░░░░░░░░░░░] 66.2%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -30,7 +30,7 @@
 | 6 — 2D Arrays | 7 | 9 | 78% ████████░░ |
 | 7 — Graphs | 11 | 17 | 65% ██████░░░░ |
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
-| 9 — Dynamic Programming | 20 | 21 | 95% █████████░ |
+| 9 — Dynamic Programming | 21 | 21 | 100% ██████████ ✅ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
 | 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
@@ -427,7 +427,7 @@ You're ready to move to Module 1 when:
 | 516  | Longest Palindromic Subsequence ✅ | Medium   | DP               | 2D DP — palindrome variant      |
 | 1092 | Shortest Common Supersequence ✅     | Hard       | DP               | Build on LCS                    |
 | 685  | Minimum Domino Rotations ✅          | Medium     | Greedy           | Count frequencies               |
-| 312  | Burst Balloons                   | Hard       | DP               | Interval DP — stretch           |
+| 312  | Burst Balloons ✅                 | Hard       | DP               | Interval DP — stretch           |
 
 ---
 
@@ -509,10 +509,10 @@ You're ready to move to Module 1 when:
 - [ ] Module 6 — 2D Arrays / Matrices: 7/9 solved
 - [ ] Module 7 — Graphs: 11/17 solved
 - [x] Module 8 — Recursion & Backtracking: 11/11 solved ✅ COMPLETE
-- [ ] Module 9 — Dynamic Programming: 18/21 solved
+- [x] Module 9 — Dynamic Programming: 21/21 solved ✅ COMPLETE
 - [x] Module 10 — Tries: 3/3 solved ✅ COMPLETE
 - [ ] Module 11 — Heaps & Priority Queues: 4/10 solved
 - [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
 - [ ] Module 13 — Binary Search: 2/6 solved
 - [ ] Module 14 — Interface Design: 0/4 solved
-- **Total: 95/148 solved — 64.2%**
+- **Total: 98/148 solved — 66.2%**
