@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 98 / 148 — 66.2%**
+**Problems Solved: 99 / 148 — 66.9%**
 
 ```
-[█████████████████████████████████░░░░░░░░░░░░░░░░] 66.2%
+[██████████████████████████████████░░░░░░░░░░░░░░░] 66.9%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -22,7 +22,7 @@
 
 | Module | Solved | Total | Progress |
 |--------|--------|-------|----------|
-| 1 — Arrays | 7 | 9 | 78% ████████░░ |
+| 1 — Arrays | 8 | 9 | 89% █████████░ |
 | 2 — Strings | 6 | 8 | 75% ███████░░░ |
 | 3 — Linked Lists | 5 | 11 | 45% ████░░░░░░ |
 | 4 — Stacks & Queues | 7 | 10 | 70% ███████░░░ |
@@ -32,7 +32,7 @@
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
 | 9 — Dynamic Programming | 21 | 21 | 100% ██████████ ✅ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
-| 11 — Heaps | 4 | 10 | 40% ████░░░░░░ |
+| 11 — Heaps | 5 | 11 | 45% █████░░░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
 | 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
 | 14 — Interface Design | 0 | 4 | 0% ░░░░░░░░░░ |
@@ -226,7 +226,7 @@ You're ready to move to Module 1 when:
 | 49  | Group Anagrams ✅               | Medium     | HashMap          | `defaultdict`, `sorted()`       |
 | 128 | Longest Consecutive Sequence ✅ | Medium     | HashMap          | `set()` operations              |
 | 238 | Product of Array Except Self ✅ | Medium     | Prefix/Suffix    | Prefix/suffix pattern           |
-| 347 | Top K Frequent Elements        | Medium     | Heap             | `Counter`, `heapq.nlargest`     |
+| 347 | Top K Frequent Elements ✅     | Medium     | Heap             | Count frequencies with HashMap, then use MinHeap of size k — same pattern as Kth Largest. See Module 11. |
 | 15  | 3Sum ✅                         | Medium     | Two Pointers     | Sorting + two pointers          |
 | 217 | Contains Duplicate ✅           | Easy       | HashMap          | Warm-up — redo for speed               |
 
@@ -449,6 +449,7 @@ You're ready to move to Module 1 when:
 | 215  | Kth Largest Element in Array ✅     | Medium     | Heap             | Quickselect (in course) — redo  |
 | 1046 | Last Stone Weight ✅               | Easy       | Heap             | Max-heap (negate values trick)     |
 | 973  | K Closest Points to Origin ✅       | Medium     | Heap             | Min-heap                        |
+| 347  | Top K Frequent Elements ✅      | Medium     | Heap             | HashMap for frequencies + MinHeap of size k — heap root = kth most frequent |
 | 621  | Task Scheduler                     | Medium     | Heap + Greedy    | Max-heap + greedy               |
 | 355  | Design Twitter                     | Medium     | Heap             | Heap + OOP                      |
 | 451  | Sort Characters By Frequency       | Medium     | Heap             | Heap or bucket sort             |
@@ -515,4 +516,4 @@ You're ready to move to Module 1 when:
 - [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
 - [ ] Module 13 — Binary Search: 2/6 solved
 - [ ] Module 14 — Interface Design: 0/4 solved
-- **Total: 98/148 solved — 66.2%**
+- **Total: 99/148 solved — 66.9%**
