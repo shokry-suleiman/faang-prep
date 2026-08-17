@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 99 / 148 — 66.9%**
+**Problems Solved: 102 / 148 — 68.9%**
 
 ```
-[██████████████████████████████████░░░░░░░░░░░░░░░] 66.9%
+[██████████████████████████████████░░░░░░░░░░░░░░░] 68.9%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -32,10 +32,10 @@
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
 | 9 — Dynamic Programming | 21 | 21 | 100% ██████████ ✅ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
-| 11 — Heaps | 5 | 11 | 45% █████░░░░░ |
+| 11 — Heaps | 8 | 11 | 73% ███████░░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
 | 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
-| 14 — Interface Design | 0 | 4 | 0% ░░░░░░░░░░ |
+| 14 — Interface Design | 4 | 4 | 100% ██████████ ✅ |
 
 ---
 
@@ -450,9 +450,9 @@ You're ready to move to Module 1 when:
 | 1046 | Last Stone Weight ✅               | Easy       | Heap             | Max-heap (negate values trick)     |
 | 973  | K Closest Points to Origin ✅       | Medium     | Heap             | Min-heap                        |
 | 347  | Top K Frequent Elements ✅      | Medium     | Heap             | HashMap for frequencies + MinHeap of size k — heap root = kth most frequent |
-| 621  | Task Scheduler                     | Medium     | Heap + Greedy    | Max-heap + greedy               |
-| 355  | Design Twitter                     | Medium     | Heap             | Heap + OOP                      |
-| 451  | Sort Characters By Frequency       | Medium     | Heap             | Heap or bucket sort             |
+| 621  | Task Scheduler ✅                   | Medium     | Heap + Greedy    | Max-heap + cooldown queue       |
+| 355  | Design Twitter ✅                   | Medium     | Heap             | Heap + OOP                      |
+| 451  | Sort Characters By Frequency ✅     | Medium     | Heap             | Heap or bucket sort             |
 | 767  | Reorganize String                  | Medium     | Heap + Greedy    | Greedy + heap                   |
 | 295  | Find Median from Data Stream       | Hard       | Heap             | Two heaps — important           |
 | 1642 | Furthest Building You Can Reach    | Medium     | Heap + Greedy    | Heap + greedy                   |
@@ -473,6 +473,15 @@ You're ready to move to Module 1 when:
 | 45  | Jump Game II                   | Medium     | Greedy           | Greedy BFS                      |
 | 134 | Gas Station                    | Medium     | Greedy           | Circular greedy                 |
 | 846 | Hand of Straights              | Medium     | Greedy           | Greedy + hashmap                |
+
+### Also solvable with Sorting / Bucket Sort (already counted in Module 11 — Heaps)
+
+> These problems have bucket sort as an alternative O(n) approach. Not counted in this module's total.
+
+| #   | Problem | Alternative Approach |
+|-----|---------|---------------------|
+| 215 | Kth Largest Element in Array ✅ | Bucket sort — create n buckets by value, scan from largest |
+| 347 | Top K Frequent Elements ✅ | Bucket sort — bucket by frequency (index = count), scan from end |
 
 ---
 
@@ -495,7 +504,7 @@ You're ready to move to Module 1 when:
 | --- | ------------------------------ | ---------- | ---------------- | ------------------------------- |
 | 146 | LRU Cache                     | Medium     | HashMap + LL     | Hashmap + doubly linked list         |
 | 380 | Insert Delete GetRandom O(1)  | Medium     | HashMap          | Hashmap + array                 |
-| 355 | Design Twitter                | Medium     | Heap             | Heap + OOP (if not done)        |
+| 355 | Design Twitter ✅              | Medium     | Heap             | Heap + OOP                      |
 | 981 | Time Based Key-Value Store    | Medium     | Binary Search    | BS + design (if not done)       |
 
 ---
@@ -512,8 +521,8 @@ You're ready to move to Module 1 when:
 - [x] Module 8 — Recursion & Backtracking: 11/11 solved ✅ COMPLETE
 - [x] Module 9 — Dynamic Programming: 21/21 solved ✅ COMPLETE
 - [x] Module 10 — Tries: 3/3 solved ✅ COMPLETE
-- [ ] Module 11 — Heaps & Priority Queues: 4/10 solved
+- [ ] Module 11 &amp; Priority Queues: 8/11 solved
 - [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
 - [ ] Module 13 — Binary Search: 2/6 solved
-- [ ] Module 14 — Interface Design: 0/4 solved
-- **Total: 99/148 solved — 66.9%**
+- [x] Module 14 — Interface Design: 4/4 solved ✅ COMPLETE
+- **Total: 102/148 solved — 68.9%**
