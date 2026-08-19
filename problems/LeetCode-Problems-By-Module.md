@@ -8,10 +8,10 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 102 / 148 — 68.9%**
+**Problems Solved: 103 / 148 — 69.6%**
 
 ```
-[██████████████████████████████████░░░░░░░░░░░░░░░] 68.9%
+[███████████████████████████████████░░░░░░░░░░░░░░] 69.6%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
@@ -32,7 +32,7 @@
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
 | 9 — Dynamic Programming | 21 | 21 | 100% ██████████ ✅ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
-| 11 — Heaps | 8 | 11 | 73% ███████░░░ |
+| 11 — Heaps | 9 | 11 | 82% ████████░░ |
 | 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
 | 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
 | 14 — Interface Design | 4 | 4 | 100% ██████████ ✅ |
@@ -453,7 +453,7 @@ You're ready to move to Module 1 when:
 | 621  | Task Scheduler ✅                   | Medium     | Heap + Greedy    | Max-heap + cooldown queue       |
 | 355  | Design Twitter ✅                   | Medium     | Heap             | Heap + OOP                      |
 | 451  | Sort Characters By Frequency ✅     | Medium     | Heap             | Heap or bucket sort             |
-| 767  | Reorganize String                  | Medium     | Heap + Greedy    | Greedy + heap                   |
+| 767  | Reorganize String ✅                | Medium     | Heap + Greedy    | Greedy + heap, prev trick       |
 | 295  | Find Median from Data Stream       | Hard       | Heap             | Two heaps — important           |
 | 1642 | Furthest Building You Can Reach    | Medium     | Heap + Greedy    | Heap + greedy                   |
 
@@ -525,4 +525,4 @@ You're ready to move to Module 1 when:
 - [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
 - [ ] Module 13 — Binary Search: 2/6 solved
 - [x] Module 14 — Interface Design: 4/4 solved ✅ COMPLETE
-- **Total: 102/148 solved — 68.9%**
+- **Total: 103/148 solved — 69.6%**
