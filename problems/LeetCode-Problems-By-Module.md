@@ -8,15 +8,15 @@
 
 ## 📊 Overall Progress
 
-**Problems Solved: 103 / 148 — 69.6%**
+**Problems Solved: 121 / 151 — 80.1%**
 
 ```
-[███████████████████████████████████░░░░░░░░░░░░░░] 69.6%
+[████████████████████████████████████████░░░░░░░░░] 80.1%
 ```
 
 > Recounted directly from file content on this update — corrects any drift from manual tracking.
 > Every time you solve a new problem, add ✅ next to it and update the count above.
-> Formula: solved ÷ 148 × 100 = %. Each █ block = 2%.
+> Formula: solved ÷ 151 × 100 = %. Each █ block = 2%.
 
 ### Progress by Module
 
@@ -32,10 +32,10 @@
 | 8 — Backtracking | 11 | 11 | 100% ██████████ ✅ |
 | 9 — Dynamic Programming | 21 | 21 | 100% ██████████ ✅ |
 | 10 — Tries | 3 | 3 | 100% ██████████ ✅ |
-| 11 — Heaps | 9 | 11 | 82% ████████░░ |
-| 12 — Sorting & Greedy | 1 | 10 | 10% █░░░░░░░░░ |
-| 13 — Binary Search | 2 | 6 | 33% ███░░░░░░░ |
-| 14 — Interface Design | 4 | 4 | 100% ██████████ ✅ |
+| 11 — Heaps | 11 | 11 | 100% ██████████ ✅ |
+| 12 — Sorting & Greedy | 10 | 12 | 83% ████████░░ |
+| 13 — Binary Search | 6 | 6 | 100% ██████████ ✅ |
+| 14 — Interface Design | 2 | 4 | 50% █████░░░░░ |
 
 ---
 
@@ -454,8 +454,8 @@ You're ready to move to Module 1 when:
 | 355  | Design Twitter ✅                   | Medium     | Heap             | Heap + OOP                      |
 | 451  | Sort Characters By Frequency ✅     | Medium     | Heap             | Heap or bucket sort             |
 | 767  | Reorganize String ✅                | Medium     | Heap + Greedy    | Greedy + heap, prev trick       |
-| 295  | Find Median from Data Stream       | Hard       | Heap             | Two heaps — important           |
-| 1642 | Furthest Building You Can Reach    | Medium     | Heap + Greedy    | Heap + greedy                   |
+| 295  | Find Median from Data Stream ✅     | Hard       | Heap             | Two heaps — re-solve cold later |
+| 1642 | Furthest Building You Can Reach ✅ | Medium     | Heap + Greedy    | Heap + greedy                   |
 
 ---
 
@@ -464,15 +464,15 @@ You're ready to move to Module 1 when:
 | #   | Problem                        | Difficulty | Pattern          | Key Concept                     |
 | --- | ------------------------------ | ---------- | ---------------- | ------------------------------- |
 | 56  | Merge Intervals ✅              | Medium     | Greedy           | Sort + merge                    |
-| 57  | Insert Interval                | Medium     | Greedy           | Classic                         |
-| 435 | Non-overlapping Intervals      | Medium     | Greedy           | Greedy removal                  |
+| 57  | Insert Interval ✅              | Medium     | Greedy           | Classic                         |
+| 435 | Non-overlapping Intervals ✅   | Medium     | Greedy           | Greedy removal                  |
 | 252 | Meeting Rooms                  | Easy       | Greedy           | Overlap check                   |
 | 253 | Meeting Rooms II               | Medium     | Heap + Greedy    | Min-heap sweep                  |
-| 763 | Partition Labels               | Medium     | Greedy           | Greedy + last occurrence        |
-| 55  | Jump Game                      | Medium     | Greedy           | Greedy                          |
-| 45  | Jump Game II                   | Medium     | Greedy           | Greedy BFS                      |
-| 134 | Gas Station                    | Medium     | Greedy           | Circular greedy                 |
-| 846 | Hand of Straights              | Medium     | Greedy           | Greedy + hashmap                |
+| 763 | Partition Labels ✅             | Medium     | Greedy           | Greedy + last occurrence        |
+| 55  | Jump Game ✅                    | Medium     | Greedy           | Greedy                          |
+| 45  | Jump Game II ✅                 | Medium     | Greedy           | Greedy BFS                      |
+| 134 | Gas Station ✅                  | Medium     | Greedy           | Circular greedy                 |
+| 846 | Hand of Straights ✅            | Medium     | Greedy           | Greedy + hashmap                |
 
 ### Also solvable with Sorting / Bucket Sort (already counted in Module 11 — Heaps)
 
@@ -490,11 +490,11 @@ You're ready to move to Module 1 when:
 | #   | Problem                                      | Difficulty | Pattern          | Key Concept                     |
 | --- | -------------------------------------------- | ---------- | ---------------- | ------------------------------- |
 | 704 | Binary Search ✅                              | Easy       | Binary Search    | Warm-up                         |
-| 33  | Search in Rotated Sorted Array               | Medium     | Binary Search    | Modified BS                     |
+| 33  | Search in Rotated Sorted Array ✅            | Medium     | Binary Search    | Modified BS                     |
 | 34  | Find First and Last Position ✅               | Medium     | Binary Search    | Redo for speed                  |
-| 153 | Find Minimum in Rotated Sorted Array         | Medium     | Binary Search    | Modified BS                     |
-| 875 | Koko Eating Bananas                          | Medium     | Binary Search    | BS on answer                    |
-| 981 | Time Based Key-Value Store                   | Medium     | Binary Search    | BS + design                     |
+| 153 | Find Minimum in Rotated Sorted Array ✅      | Medium     | Binary Search    | Modified BS                     |
+| 875 | Koko Eating Bananas ✅                       | Medium     | Binary Search    | BS on answer                    |
+| 981 | Time Based Key-Value Store ✅                | Medium     | Binary Search    | BS + design                     |
 
 ---
 
@@ -505,7 +505,7 @@ You're ready to move to Module 1 when:
 | 146 | LRU Cache                     | Medium     | HashMap + LL     | Hashmap + doubly linked list         |
 | 380 | Insert Delete GetRandom O(1)  | Medium     | HashMap          | Hashmap + array                 |
 | 355 | Design Twitter ✅              | Medium     | Heap             | Heap + OOP                      |
-| 981 | Time Based Key-Value Store    | Medium     | Binary Search    | BS + design (if not done)       |
+| 981 | Time Based Key-Value Store ✅  | Medium     | Binary Search    | BS + design                     |
 
 ---
 
@@ -521,8 +521,8 @@ You're ready to move to Module 1 when:
 - [x] Module 8 — Recursion & Backtracking: 11/11 solved ✅ COMPLETE
 - [x] Module 9 — Dynamic Programming: 21/21 solved ✅ COMPLETE
 - [x] Module 10 — Tries: 3/3 solved ✅ COMPLETE
-- [ ] Module 11 &amp; Priority Queues: 8/11 solved
-- [ ] Module 12 — Sorting, Greedy & Intervals: 1/10 solved
-- [ ] Module 13 — Binary Search: 2/6 solved
-- [x] Module 14 — Interface Design: 4/4 solved ✅ COMPLETE
-- **Total: 103/148 solved — 69.6%**
+- [x] Module 11 — Heaps & Priority Queues: 11/11 solved ✅ COMPLETE
+- [ ] Module 12 — Sorting & Greedy: 10/12 solved
+- [x] Module 13 — Binary Search: 6/6 solved ✅ COMPLETE
+- [ ] Module 14 — Interface Design: 2/4 solved
+- **Total: 121/151 solved — 80.1%**
