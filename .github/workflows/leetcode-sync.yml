@@ -24,46 +24,6 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip leetcode-export
 
-      - name: Validate LeetCode session
-        env:
-          LEETCODE_COOKIE: ${{ secrets.LEETCODE_COOKIE }}
-        shell: bash
-        run: |
-          set -euxo pipefail
-
-          if [ -z "${LEETCODE_COOKIE:-}" ]; then
-            echo "::error::LEETCODE_COOKIE secret is missing or empty."
-            exit 1
-          fi
-
-          python - <<'PY'
-          import os
-          import requests
-
-          cookie = os.environ.get('LEETCODE_COOKIE', '').strip()
-          if not cookie:
-              print('::error::LEETCODE_COOKIE is empty after export.')
-              raise SystemExit(1)
-
-          try:
-              response = requests.get(
-                  'https://leetcode.com/',
-                  headers={'Cookie': cookie},
-                  timeout=30,
-                  allow_redirects=True,
-              )
-          except requests.RequestException as exc:
-              print(f'::error::Could not reach LeetCode to validate the cookie: {exc}')
-              raise SystemExit(1)
-
-          print(f'LeetCode validation status: {response.status_code} -> {response.url}')
-          body = response.text.lower()
-
-          if response.status_code != 200 or 'login' in response.url.lower() or 'log in' in body or 'sign in' in body:
-              print('::error::LEETCODE_COOKIE appears invalid or expired. LeetCode returned a login page or non-200 response.')
-              raise SystemExit(1)
-          PY
-
       - name: Run leetcode-export
         env:
           LEETCODE_COOKIE: ${{ secrets.LEETCODE_COOKIE }}
